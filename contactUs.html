@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Import Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Document details -->
+    <title>Bangalore Tourism</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Navbar -->
+    <div class="navbar__container">
+      <div class="navbar">
+        <a class="navbar__link" href="index.html">Home</a>
+        <a class="navbar__link" href="aboutUs.html">About Us</a>
+        <a class="navbar__link navbar__link--active" href="#">Contact Us</a>
+        <a class="navbar__link" href="climate.html">Climate</a>
+      </div>
+    </div>
+    <!-- Actual webpage body -->
+    <div class="body">
+      <!-- Page title -->
+      <h1 class="body__title">Contact Us</h1>
+
+      <div class="body__paragraphContainer--last">
+        <p class="body__paragraph">
+          Have a question about our exclusive Bangalore tours or need assistance
+          planning your itinerary? Our dedicated team is here to help. Feel free
+          to reach out with any inquiries, special requests, or even if you just
+          want some local insights to make your trip unforgettable.
+        </p>
+      </div>
+
+      <!-- Contact form -->
+      <div class="form__container">
+        <form class="form" action="">
+          <div class="form__inputContainer">
+            <label class="form__label" for="name">Name:</label>
+            <input
+              class="form__input"
+              name="name"
+              type="text"
+              placeholder="Please enter your name"
+            />
+          </div>
+
+          <div class="form__inputContainer">
+            <label class="form__label" for="email">Email:</label>
+            <input
+              class="form__input"
+              name="email"
+              type="text"
+              placeholder="Please enter your email"
+            />
+          </div>
+
+          <div class="form__inputContainer">
+            <label class="form__label" for="phone">Phone:</label>
+            <input
+              class="form__input"
+              name="phone"
+              type="number"
+              placeholder="Please enter your number"
+            />
+          </div>
+
+          <div class="form__inputContainer">
+            <label class="form__label" for="message">Message:</label>
+            <textarea
+              class="form__textArea"
+              name="message"
+              type="text"
+              placeholder="Please enter your message"
+            ></textarea>
+          </div>
+          <div class="form__buttonContainer">
+            <button class="form__submitButton" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
